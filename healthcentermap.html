@@ -1,4 +1,3 @@
-
 <html>
 <!--
  * Name: Leafletjs connect php-geojson through postgis   
@@ -35,7 +34,6 @@ function addDataToMap(data, map) {
         });
     dataLayer.addTo(map);
 }
-
 //$.getJSON("http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson", function(data) { addDataToMap(data, map); });
 $.getJSON("healthcenter.php", function(data) { addDataToMap(data,map); });
 </script>
